@@ -16,7 +16,7 @@ This project implements a virtual mouse using hand tracking with Mediapipe and O
 - Pyautogui
 
 ## How It Works
-Hand Detection: Mediapipe is used to detect and track the hand in real-time using the webcam feed.
-Landmark Extraction: Key landmarks on the hand are identified to track movements and gestures.
-Gesture Recognition: Specific hand gestures are mapped to mouse actions (e.g., moving the cursor, left-click, right-click).
-Mouse Control: Pyautogui is used to control the mouse cursor and perform click actions based on the recognized gestures.
+1. Hand Detection: Mediapipe is used to detect and track the hand in real-time using the webcam feed.
+2. Landmark Extraction: Key landmarks on the hand are identified to track movements and gestures.
+3. Gesture Recognition: Specific hand gestures are mapped to mouse actions (e.g., moving the cursor, left-click, right-click).
+4. Mouse Control: Pyautogui is used to control the mouse cursor and perform click actions based on the recognized gestures.
